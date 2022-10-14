@@ -7,7 +7,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/post/:postId" element={<PostDetails />} />
-        <Route path="/createpost" element={<CreatePost />} />
+        <Route path="/create-post" element={<CreatePost />} />
       </Routes>
     </div>
   );
